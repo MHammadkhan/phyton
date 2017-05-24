@@ -1,0 +1,28 @@
+l=int(input("Enter Loan Amount : "))
+n=int(input("Enter Number Of Payment : "))
+i=0.05
+a=1+i
+b=a*i
+c=b*n
+d=c*l
+
+e=n-1
+f=a*e
+m=d/f
+print("Monthly Payment Is :",m)
+
+
+
+
+
+
+
+
+//////////////////////////
+l=int(input("Enter Loan Amount : "))
+n=int(input("Enter Number Of Payment : "))
+i=0.05
+a=(l*((i*(i+1))*n))
+b=(i+1)*(n-1)
+m=a/b
+print("Monthly Payment Is :",m)
